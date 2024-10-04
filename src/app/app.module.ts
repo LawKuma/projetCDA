@@ -9,6 +9,8 @@ import { CarouselBanniereComponent } from './components/carousel-banniere/carous
 import { HomeComponent } from './components/home/home.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PageProduitComponent } from './components/page-produit/page-produit.component';
+import { PageLoginComponent } from './components/page-login/page-login.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FooterComponent } from './components/footer/footer.component';
     CarouselBanniereComponent,
     HomeComponent,
     BlogComponent,
-    FooterComponent
+    FooterComponent,
+    PageProduitComponent,
+    PageLoginComponent
   ],
   imports: [
     BrowserModule,
